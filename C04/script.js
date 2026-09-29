@@ -7,7 +7,6 @@ const SOUNDS = [
   "assets/2.wav",
   "assets/3.wav",
   "assets/4.wav",
-  "assets/5.wav",
   "assets/C03-S01-WiiBeep.wav",
 ];
 
