@@ -7,7 +7,7 @@ const SOUNDS = [
   "assets/C04-S01-chattering.machines.wav",
   "assets/C04-S01-correct.wav",
   "assets/C04-S03-critical.line.wav",
-  "assets/C03-S01-WiiBeep.wav",
+  "assets/C04-S01-okay.lets.do.it.again.wav",
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════════
