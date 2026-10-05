@@ -3,10 +3,10 @@
 // Paths are relative to this folder, e.g. 'C04-S01-my-sound.wav'.
 // ═══════════════════════════════════════════════════════════════════════════════
 const SOUNDS = [
-  "assets/1.wav",
-  "assets/2.wav",
-  "assets/3.wav",
-  "assets/4.wav",
+  "assets/C04-S01-bells.chime.wav",
+  "assets/C04-S01-chattering.machines.wav",
+  "assets/C04-S01-correct.wav",
+  "assets/C04-S03-critical.line.wav",
   "assets/C03-S01-WiiBeep.wav",
 ];
 
