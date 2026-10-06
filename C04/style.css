@@ -65,7 +65,7 @@ header {
 }
 
 .title-block h2 {
-  font-size: clamp(1rem, 3vw, 4rem);
+  font-size: clamp(0.55rem, 1vw, 2rem);
   letter-spacing: 0.2em;
   color: var(--mid);
   margin-top: 0.4rem;
