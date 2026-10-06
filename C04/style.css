@@ -2,8 +2,8 @@
 
 /* Light theme (default) */
 :root {
-  --bg: #f5f3ee;
-  --fg: #1a1a1a;
+  --bg: #000000;
+  --fg: #aa3131;
   --accent: #4d7a00;
   --dim: #d3cec3;
   --mid: #66645e;
