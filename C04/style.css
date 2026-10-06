@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@100;300&display=swap");
 
-/*Light theme (default)
+/* Light theme (default) */
 :root {
   --bg: #f5f3ee;
   --fg: #1a1a1a;
