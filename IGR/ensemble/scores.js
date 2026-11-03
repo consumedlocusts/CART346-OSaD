@@ -125,7 +125,7 @@ const SCORES = [
       },
       {
         at: "5:40",
-        groups: "AC",
+        groups: "B",
         play: "demo/C07-S03-LifeLine",
         fade: 10,
         level: 0.7,
