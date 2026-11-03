@@ -10,9 +10,11 @@ title: C05
 {% for f in site.static_files %}
 {% assign ext = f.extname | downcase %}
 {% if f.path contains page.dir and audio_exts contains ext %}
+
 <p>
   <strong>{{ f.name }}</strong>{% if f.name contains "_FAV" %} ★{% endif %}<br>
   <audio controls preload="none" src="{{ f.path | relative_url }}"></audio>
 </p>
+<!-- quetgued -->
 {% endif %}
 {% endfor %}
