@@ -67,26 +67,69 @@ const PTC_CREDIT =
 const SCORES = [
   {
     title: "Rain Study I",
-    credit: "All recordings by Gabriel Vigliensoni.",
+    credit: "yay.",
     groups: 4,
     events: [
       // Sound 1 in A, B and C: each group spreads slowly, groups stay together
-      { at: "0:00", groups: "AB", play: "demo/1", ratio: 1.01, fade: 5 },
+      {
+        at: "0:00",
+        groups: "AB",
+        play: "demo/ZOOM0027_Tr1.WAV",
+        ratio: 1.01,
+        fade: 5,
+      },
       // ******The groups start drifting against each other too
       //glide is how long it take to reach the other group, gradually changing, gradullay to 1.04 (as it starts at 1)
-      { at: "0:30", spread: 1.04, glide: 30 },
+      {
+        at: "0:30",
+        groups: "C",
+        play: "demo/C07-S03-LifeLine",
+        spread: 1.04,
+        glide: 30,
+      },
       // At 2:00 sound 2 fades in on D over a minute…
-      { at: "1:00", groups: "C", play: "demo/3", ratio: 1.01, fade: 60 },
-      { at: "1:00", groups: "D", play: "demo/5", ratio: 1.02, fade: 60 },
+      {
+        at: "1:00",
+        groups: "C",
+        play: "demo/C07-S05-RoboticDance_Fav",
+        ratio: 1.01,
+        fade: 60,
+      },
+      {
+        at: "1:00",
+        groups: "D",
+        play: "demo/ZOOM0028_Tr1.WAV",
+        ratio: 1.02,
+        fade: 60,
+      },
       // …while A, B, C crossfade from sound 1 to sound 2 over the same minute
-      { at: "1:15", groups: "AB", stop: "demo/1", fade: 60 },
-      { at: "2:15", groups: "A", play: "demo/5", ratio: 1.004, fade: 60 },
+      { at: "1:15", groups: "AB", stop: "demo/ZOOM0027_Tr1.WAV", fade: 60 },
+      {
+        at: "2:15",
+        groups: "A",
+        play: "demo/C07-S02-AlienPurrr",
+        ratio: 1.004,
+        fade: 60,
+      },
       // Everyone accelerates inside their group, then everything freezes
       { at: "3:00", groups: "all", ratio: 1.03, glide: 20 },
       { at: "4:00", groups: "all", ratio: 1.0, glide: 30 },
       { at: "5:00", spread: 1.0, glide: 30 },
       // Sound 3 enters on A and C only, frozen
-      { at: "5:30", groups: "AC", play: "demo/3", fade: 10, level: 0.8 },
+      {
+        at: "5:30",
+        groups: "AC",
+        play: "demo/C07-S05-RoboticDance_Fav",
+        fade: 10,
+        level: 0.8,
+      },
+      {
+        at: "5:40",
+        groups: "AC",
+        play: "demo/C07-S03-LifeLine",
+        fade: 10,
+        level: 0.7,
+      },
       { at: "6:00", groups: "all", stop: "all", fade: 20 },
     ],
     end: "6:20",
