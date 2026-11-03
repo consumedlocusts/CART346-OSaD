@@ -49,11 +49,11 @@ const SOUND_DIR = "../assets/";
 
 // The sound buttons of Free mode, in button order
 const LOOP_SOUNDS = [
-  "demo/1",
-  "demo/2",
-  "demo/3",
-  "demo/4",
-  "demo/5",
+  "demo/ZOOM0027_Tr1.WAV",
+  "demo/C07-S03-LifeLine",
+  "demo/C07-S05-RoboticDance_Fav",
+  "demo/ZOOM0028_Tr1.WAV",
+  "demo/C07-S02-AlienPurrr",
   "demo/karateka",
   "demo/door",
   "demo/wall-thump",
